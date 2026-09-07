@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Free Resume Scanner</title>
+    <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+<main class="container">
+    <header class="hero">
+        <div>
+            <div class="eyebrow">🆓 FREE • LOCAL AI • PRIVATE</div>
+            <h1>🧠 Free Resume Scanner</h1>
+            <p>Analyze any resume against any job description using local RAG + LLM powered by Ollama.</p>
+        </div>
+        <div class="local-badge">● Local RAG + Ollama</div>
+    </header>
+
+    <section class="card input-card">
+        <div class="field">
+            <label for="resume">📄 Resume</label>
+            <input id="resume" type="file" accept=".pdf,.docx,.txt,.md">
+            <small>Supported: PDF, DOCX, TXT, MD • Max 10 MB</small>
+        </div>
+
+        <div class="field">
+            <label for="jobDescription">📝 Job Description</label>
+            <textarea id="jobDescription" rows="12" placeholder="Paste the complete job description here..."></textarea>
+        </div>
+
+        <button id="analyzeButton" class="primary-button">🔍 Analyze Resume</button>
+    </section>
+
+    <section id="status" class="status"></section>
+    <section id="report"></section>
+</main>
+<script src="/js/app.js"></script>
+</body>
+</html>
