@@ -4,6 +4,10 @@
 
 A .NET 8 application that combines document extraction, section-aware chunking, local embeddings, hybrid semantic/lexical retrieval (RAG), and a local LLM to analyze a resume against any job description.
 
+## See an example here - Sample Report Generated 
+
+https://github.com/azam123/FreeResumeScanner/blob/master/Free%20Resume%20Scanner%20Report.pdf
+
 ## ✨ What is new in this version
 
 - 🔎 **RAG pipeline** instead of sending the entire resume to the LLM
